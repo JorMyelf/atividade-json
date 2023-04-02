@@ -1,2 +1,2 @@
 # Site-Scrum
-https://jormyelf.github.io/Site-Scrum/
+https://jormyelf.github.io/atividade-json/
