@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=M+PLUS+Rounded+1c:wght@500&family=Pacifico&display=swap");
+
+:root {
+	--vermelho: #ef476f;
+	--azul: #118ab2;
+	--preto: #262626;
+	--cinza: #646464;
+	--branco: #f1f1f1;
+	--fonte-estilizada: "Pacifico", cursive;
+	--fonte-principal: "Sen", sans-serif;
+	--text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.cinza {
+	color: var(--cinza);
+}
+
+.preto {
+	color: var(--preto);
+}
+
+.fonte-estilizada {
+	font-family: var(--fonte-estilizada);
+}
+.vermelho {
+	color: var(--vermelho);
+}
+
+.fonte-principal {
+	font-family: var(--fonte-principal);
+}
+
+.bg-azul {
+	background-color: var(--azul);
+}
+
+.bg-cinza {
+	background-color: var(--cinza);
+}
+
+.branco {
+	color: var(--branco);
+}
+
+.text-shadow {
+	text-shadow: var(--text-shadow);
+}
+
+.w-38 {
+	width: 38%;
+}
+
+.fs-400 {
+	font-size: 400px;
+}
+
+.hover-preto:hover {
+	color: var(--preto);
+}
+
+.hover-vermelho:hover {
+	color: var(--vermelho);
+}
+
+.hover-branco:hover {
+	color: var(--branco);
+}
+
+.text-justify {
+	text-align: justify;
+}
