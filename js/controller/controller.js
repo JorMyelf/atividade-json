@@ -6,7 +6,7 @@ const caminhoArquivo = path.join(__dirname, "data", "dados.json");
 
 class pagina {
 	static getPage = (req, res) => {
-		res.send("renato te amo");
+		res.send("Olá, mundo!");
 	};
 	static postPage = (req, res) => {
 		const db = JSON.parse(fs.readFileSync(caminhoArquivo, "utf-8"));
