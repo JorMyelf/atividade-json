@@ -33,20 +33,87 @@
 				href="contatos.html"
 				class="border border-2 rounded-pill px-3 text-decoration-none fonte-principal fw-bold preto border-dark py-1 hover-preto"
 			>
-				<img src="assets/img/telephone.svg" />
-				Contatos</a
+				Crie sua página</a
 			>
 		</header>
-      <div
+		<div
 			class="d-flex align-items-center justify-content-center bg-azul flex-column branco py-5 vh-100"
 		>
-      <div class="bg-white h-75 w-50 rounded d-flex align-items-center justify-content-center flex-column">
-         <h2 class="fonte-principal vermelho w-50 text-center mb-4 fw-bold text-shadow">
-            Ficou alguma dúvida? Entre em contato conosco!
-         </h2>
-         <h3 class="cinza fonte-principal fs-5 m-3">E-mail: jordanna.brandao@academico.ifpb.edu.br</h3>
-         <h3 class="cinza fonte-principal fs-5 m-3">E-mail: debora.xavier@academico.ifpb.edu.br</h3>
-      </div>
+			<div
+				class="bg-white h-75 w-50 rounded d-flex align-items-center justify-content-center flex-column"
+			>
+				<h2 class="vermelho mb-lg-5">
+					Escolha os elementos da sua página
+				</h2>
+
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<form id="registroPagina">
+								<div class="form-group">
+									<label
+										class="fonte-principal"
+										for="tituloprincipal"
+										>Título Principal:</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="tituloprincipal"
+										name="tituloprincipal"
+									/>
+								</div>
+								<div class="form-group">
+									<label class="fonte-principal" for="titulo"
+										>Título:</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="titulo"
+										name="titulo"
+									/>
+								</div>
+								<div class="form-group">
+									<label class="fonte-principal" for="logo"
+										>Logo:</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="logo"
+										name="logo"
+									/>
+								</div>
+								<div class="form-group">
+									<label
+										class="fonte-principal"
+										for="subtitulo"
+										>Subtítulo:</label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="subtitulo"
+										name="subtitulo"
+									/>
+								</div>
+								<div
+									class="d-flex w-100 justify-content-center"
+								>
+									<input
+										type="submit"
+										id="botao"
+										class="hover-vermelho-bg mt-5 btn bg-azul branco"
+										value="enviar"
+									/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
+	<script src="js/adicionarPagina.js" type="module"></script>
 </html>

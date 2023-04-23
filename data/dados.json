@@ -1,9 +1,9 @@
 {
-	"tituloPrincipal": ["Scrum", "Kanbam"],
-	"titulo": ["Descomplicando Scrum", "Descomplicando Kanbam"],
-	"logo": ["Scrum", "Quadro Kanbam"],
+	"tituloPrincipal": ["Scrum", "Kanban"],
+	"titulo": ["Descomplicando Scrum", "Descomplicando Kanban"],
+	"logo": ["Scrum", "Quadro Kanban"],
 	"subtitulo": [
 		"Um site educacional que vai otimizar a maneira como seusprojetos são conduzidos",
-		"Um site educacional que vai ensinar tudo sobre Kanbam"
+		"Um site educacional que vai ensinar tudo sobre Kanban"
 	]
 }
