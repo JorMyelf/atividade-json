@@ -8,7 +8,6 @@ logo.addEventListener("click", () => {
 		.then((response) => response.json())
 		.then((data) => {
 			const view = data.logo.length - 1;
-			console.log(data, view);
 			trocaPagina(view, data);
 		})
 		.catch((error) => {
@@ -21,9 +20,4 @@ function trocaPagina(view, data) {
 	subtitulo.innerText = data.subtitulo[view];
 	logo.innerText = data.logo[view];
 	tituloPrincipal.innerText = data.tituloPrincipal[view];
-	console.log(data);
-	console.log(data.titulo[view]);
-	console.log(data.subtitulo[view]);
-	console.log(data.logo[view]);
-	console.log(data.tituloPrincipal[view]);
 }
